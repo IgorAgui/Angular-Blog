@@ -15,6 +15,37 @@
   vertical-align: -0.15em;
   font-size: 3rem;
 }
-.container_menu-bar > ul > li > a > i:hover{
+.container_menu-bar > ul > li > a > i:hover {
   color: aqua;
+}
+
+@media (max-width: 1250px) {
+  .container_menu-bar > ul > li > a {
+    font-size: 1rem;
+  }
+
+  .container_menu-bar > ul > li > a > i {
+    vertical-align: -0.25em;
+    font-size: 2rem;
+  }
+  .container_menu-bar > ul > li {
+    margin-right: 2rem;
+    list-style: none;
+  }
+}
+
+@media (max-width: 601px) {
+  .container_menu-bar > ul > li > a {
+    font-size: 0.5rem;
+  }
+
+  .container_menu-bar > ul > li > a > i {
+    vertical-align: -0.20em;
+    font-size: 1rem;
+  }
+
+  .container_menu-bar > ul > li {
+    margin-right: 1rem;
+    list-style: none;
+  }
 }

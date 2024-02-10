@@ -1,8 +1,18 @@
-.container_articles{
+.container_articles {
   margin-top: 1.7rem;
+  width: 100vw;
+
 
   display: flex;
   flex-direction: row;
-  justify-content: center;
 }
 
+.articles_main {
+  width: 50vw;
+}
+
+@media (max-width: 1177px) {
+  .container_articles {
+    display: block;
+  }
+}
