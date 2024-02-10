@@ -11,16 +11,13 @@
 .container_content > a {
   font-size: 2rem;
 }
-.container_content > a:hover {
-  color: aqua;
-}
 .container_content > a > i {
   font-size: 2.5rem;
   vertical-align: -0.13em;
 }
 
 .container_content > a > i:hover {
-  color: aqua;
+  color: red;
 }
 
 .content_cover > img {
