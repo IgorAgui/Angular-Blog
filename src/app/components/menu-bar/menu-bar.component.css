@@ -3,6 +3,18 @@
   flex-direction: row;
 }
 .container_menu-bar > ul > li {
-  margin-right: 20px;
+  margin-right: 3rem;
   list-style: none;
+}
+
+.container_menu-bar > ul > li > a {
+  font-size: 2rem;
+}
+
+.container_menu-bar > ul > li > a > i {
+  vertical-align: -0.15em;
+  font-size: 3rem;
+}
+.container_menu-bar > ul > li > a > i:hover{
+  color: aqua;
 }
