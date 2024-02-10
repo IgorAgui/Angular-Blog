@@ -37,4 +37,6 @@
 .content_description > p {
   margin-top: 1.5rem;
   color: gray;
+  text-align: center;
+  width: 100vh;
 }
